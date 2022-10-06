@@ -1,0 +1,421 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022050601",
+        "name": "Organic Canadian Wild Clover Honey",
+        "description": "A delicate and distinctive flavour that is deliciously light and creamy.Wild Clover Honey is perfect for cooking due to its mild flavour and intense sweetness.Certified Kosher and Halal. Fully recyclable (including cap)!",
+        "price": 12.99,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "https://www.hollandandbarrett.com/shop/product/st-lawrence-gold-organic-canadian-wild-clover-honey-60061204?skuid=061204&utm_campaign=shopping&utm_medium=cpc&utm_source=google&gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qgdxlXrnQMeV2CldNYqeaqT6CXZ7Mz4cFAwLYYsPlsxXJ0jQJbgkGUaAhnIEALw_wcB&gclsrc=aw.ds",
+        "image": "DP01000000000M.png"
+    }
+},
+{
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052401",
+        "name": "Harvey Nichols Clover Honey",
+        "description": "Harvey Nichols Clover Honey is pale, with a mild flavour reminiscent of vanilla and clover combined with a scent of beeswax. Country of Origin : New Zealand.",
+        "price": 25.05,
+        "category": 1,
+        "rating": 4.65,
+        "image_url": "https://www.ocado.com/products/harvey-nichols-clover-honey-369185011?ds_rl=1290929&ds_rl=1291426&gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qiM4G-TLLowQAnRQCexS74JgegZQx_JMDpiyJ0YhCI_YfH7G3vLlDUaApBcEALw_wcB&gclsrc=aw.ds",
+        "image": "DP01000000001M.png"
+    }
+},
+{
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052403",
+        "name": "Clover Honey - Made in Romanaia",
+        "description": "A mild and creamy treat that is cherished by honey enthusiasts all over the world. Clover honey by Nature’s Blends is sourced from the gorgeous South Island in New Zealand.",
+        "price": 9.99,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": "https://www.naturesblends.com/products/clover-honey-250g?variant=39706024607832&currency=GBP&utm_source=google&utm_medium=cpc&utm_campaign=google+shopping&cmp_id=15852267586&adg_id=&kwd=&device=c&gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qhNol2vwjLQfAVeIQdf3-bBP7mWALrDctd9u-iqH6gP4n_GRFHPg1oaAlrOEALw_wcB",
+        "image": "DP01000000003M.png"
+    }
+},
+{
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052404",
+        "name": "Clover Honey RAW UNPROCESSED PURE 100%",
+        "description": "100% pure raw honey. Unpasteurised, unfiltered, free from any artificial additives like colourants, flavours, preservatives or sweeteners. From single apiary. We harvest each type of honey from one apiary and never blend it with other types of honey or other beekeepers' honey.",
+        "price": 9.95,
+        "category": 1,
+        "rating": 4.2,
+        "image_url": "https://www.ebay.co.uk/itm/173873423346?var=0&mkevt=1&mkcid=1&mkrid=710-53481-19255-0&campid=5338343596&toolid=10001&customid=eb%3Ag%3Avms%3Aeb%3Ap%3A173873423346%3BCj0KCQjw-fmZBhDtARIsAH6H8qjeOsuCtLVaRc4W6svDLDM7FQxOf-6PLETjptp4X6lIGjfK6oL7eK0aAsZyEALw_wcB&_trkparms=ispr%3D1&amdata=enc%3A1e14GdRXZReKIn-0wshu_jg41&gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qjeOsuCtLVaRc4W6svDLDM7FQxOf-6PLETjptp4X6lIGjfK6oL7eK0aAsZyEALw_wcB",
+        "image": "DP01000000004M.png"
+    }
+},
+{
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052405",
+        "name": "100% Natural Raw Domestic Clover Honey - Made in USA",
+        "description": "100% Pure Raw Domestic Amish Honey - Made in Pennsylvania No Preservatives & Additives - Source of Natural Vitamins & Minerals Healthy Energy - Very Nutritious natural healing remedy No Pesticide, Pollutant or Herbicide Raw, Unheated, Unpressed - KOSHER",
+        "price": 18.93,
+        "category": 1,
+        "rating": 4.4,
+        "image_url": "https://www.etsy.com/uk/listing/257919638/100-natural-raw-domestic-clover-honey?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_uk_en_gb_d-home_and_living-food_and_drink-preserves-other&utm_custom1=_k_Cj0KCQjw-fmZBhDtARIsAH6H8qjS5WXsOAo1yl9OOmR_PYI1_Lm95UyYzCWk-ixzzo4Mg2kgEyu5I1caAvZTEALw_wcB_k_&utm_content=go_12576471778_122334902329_507694514576_pla-308499719958_c__257919638engb_102858184&utm_custom2=12576471778&gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qjS5WXsOAo1yl9OOmR_PYI1_Lm95UyYzCWk-ixzzo4Mg2kgEyu5I1caAvZTEALw_wcB",
+        "image": "DP01000000005M.png"
+    }
+},
+{
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052406",
+        "name": "Honeycomb Clover Clear Honey",
+        "description": "Honeycomb Clover Clear Honey has a mellow to sweet flavour and is very versatile honey with many uses. It has a pale golden colour in its clear state turning to a pale cream colour in its set state. It is the healthiest substitute of refined sugar with wholesome natural goodness. Clover honey produced in the clover meadows of New Zealand which is one of the worlds best-loved floral honey.",
+        "price": 7.99,
+        "category": 1,
+        "rating": 4.7,
+        "image_url": "https://www.amazon.co.uk/dp/B079Y76VZN?tag=mcdiscountcouk0b-21&linkCode=osi&th=1&psc=1",
+        "image": "DP01000000006M.png"
+    }
+},
+{
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052407",
+        "name": "No.1 New Zealand Clover Honey",
+        "description": "Mild, creamy and spreadable, this honey has a light butterscotch flavour and comes from bees that forage on clover.",
+        "price": 11.99,
+        "category": 1,
+        "rating": 4.34,
+        "image_url": "https://www.waitrose.com/ecom/products/no1-new-zealand-clover-honey/647895-705228-705229",
+        "image": "DP01000000007M.png"
+    }
+},
+{
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052408",
+        "name": "Organic Clear Clover Honey",
+        "description": "Littleover Apiaries clear Organic Clover Honey is produced in New Zealand in organically certified fields and in one of the least polluted environments left in the world. ",
+        "price": 16.88,
+        "category": 1,
+        "rating": 5,
+        "image_url": "https://www.littleoverapiaries.com/wp-content/uploads/2009/10/190717-Littleover-Apiaries_Pure_Organic_Clover_0022_hi-res_retouch_900px.jpg",
+        "image": "DP01000000008M.png"
+    }
+},
+{
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052409",
+        "name": "CLOVER HONEY",
+        "description": "The colour of clover honey varies from light yellow to light amber. It is one of the most well known and recognizable types of honey. Clover honey has fresh grassy, flowery aroma and very sweet taste.",
+        "price": 12.79,
+        "category": 1,
+        "rating": 4.35,
+        "image_url": "https://www.thehoneybeestore.ca/Clover-Honey-Ontario-Canada-p/123596.htm",
+        "image": "DP01000000009M.png"
+    }
+},
+{
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052410",
+        "name": "Holland & Barrett Organic Wild Flower Clear Honey",
+        "description": "Holland & Barrett Organic Wild Flower Clear Honey is a sweet and fruity honey sourced organically. This wild flower honey is great to cook with. Also use it as spreads on toast or drizzle over your morning oats.",
+        "price": 6.77,
+        "category": 2,
+        "rating": 5,
+        "image_url": "https://www.hollandandbarrett.com/shop/product/holland-barrett-organic-wild-flower-clear-honey-60083952?skuid=083952&utm_campaign=shopping&utm_medium=cpc&utm_source=google&gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qgJiG5lRNrcQOkq0wPXXUN6swMXgiXYwrv6vgDuwh32r2gkdEhsYwAaAv8OEALw_wcB&gclsrc=aw.ds",
+        "image": "DP01000000010M.png"
+    }
+},
+{
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052411",
+        "name": "Raw Wildflower Honey",
+        "description": "Wildflower honey produced from the nectar of the most prominent in the area flowers; Acacia, clover, linden, lavender, rasper, wild indigo to name just a few.",
+        "price": 16.45,
+        "category": 2,
+        "rating": 4.9,
+        "image_url": "https://realrawhoney.co.uk/product/wildflower-honey-900g/?gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qiXSHQFI3-Rec-yKdy4iYvMxoEQzcqUqdTSj4OOWsnxjBt8vguipUkaAharEALw_wcB",
+        "image": "DP01000000011M.png"
+    }
+},
+{
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052412",
+        "name": "Wildflower Honey",
+        "description": "Sala Cereali Wildflower Honey is produced by mid-coast apiaries in the Valtellina region. Known for its sweet and fragrant characteristics with fruity and floral aromas.",
+        "price": 8.3,
+        "category": 2,
+        "rating": 4.8,
+        "image_url": "https://ilfattore.co.uk/products/sala-wildflower-honey-400g?variant=40256801505373&currency=GBP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qgI6nWVcLpo_W5Fip3FV1Y9Lbsaf1F3g48ftNI3peM9uIba_qdzcPQaAjvOEALw_wcB",
+        "image": "DP01000000012M.png"
+    }
+},
+{
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052413",
+        "name": "M&S Wildflower Honey",
+        "description": "Sourced from bees that forage on wildflowers, this delicate honey has a rich floral flavour. Drizzle on pancakes or use as a natural sweetener in desserts.",
+        "price": 3.12,
+        "category": 2,
+        "rating": 4.4,
+        "image_url": "https://stefancucut-thinkhonney-fivs9xi2ec5.ws-eu67.gitpod.io",
+        "image": "DP01000000013M.png"
+    }
+},
+{
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052414",
+        "name": "TIANA Organic Active Wild Flower Honey",
+        "description": "Award winning TIANA Pure Organic and Unpasteurised Honey contains antibacterial complex with a Diastatic Activity 10+. Completely different to other honey due to availability of enzymes, Diastase, Invertase and Catalase, which are important for your health.",
+        "price": 12.1,
+        "category": 2,
+        "rating": 4.5,
+        "image_url": "https://www.hollandandbarrett.com/shop/product/tiana-organic-active-wild-flower-honey-60042315?skuid=042315&utm_campaign=shopping&utm_medium=cpc&utm_source=google&gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qj0aGyjHpGoXfb4WkCNafXvKHs7tE61kvfH9eCjfTyL-LSouYCwJvIaAm2qEALw_wcB&gclsrc=aw.ds",
+        "image": "DP01000000014M.png"
+    }
+},
+{
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052415",
+        "name": "Raw Creamed Wildflower Honey",
+        "description": "Raw Creamed Wildflower Honey 1kg, Wild Flower Raw Honey, Set Pure Natural Soft, ECO Harvest Full of Protein Enzymes & Antioxidants, No additives.",
+        "price": 8.33,
+        "category": 2,
+        "rating": 4.75,
+        "image_url": "https://www.amazon.co.uk/Wellnesstore-uk-Creamed-Wildflower-Natural-additives/dp/B07HJ2425Z/ref=asc_df_B07HJ2425Z/?tag=googshopuk-21&linkCode=df0&hvadid=310813620674&hvpos=&hvnetw=g&hvrand=2219752898325724138&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046212&hvtargid=pla-564453351785&psc=1",
+        "image": "DP01000000015M.png"
+    }
+},
+{
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052416",
+        "name": "Santa Cruz HIGHTOWER C R NX",
+        "description": "Very tasty variety, we would class it as the most traditional type of honey. Lovely floral taste perfect for everyday use, spread it on your toast or crumpets, add to cereals or porridge. Great for cooking or baking.",
+        "price": 9.10,
+        "category": 2,
+        "rating": 4.8,
+        "image_url": "https://www.rawartisanhoney.com/products/raw-wildflower-honey",
+        "image": "DP01000000016M.png"
+    }
+},
+{
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052417",
+        "name": "Raw Acacia Honey",
+        "description": "Acacia honey is a mono-floral honey, meaning it is made predominantly from the nectar of a single flowering plant species (Acacia).",
+        "price": 8.44,
+        "category": 3,
+        "rating": 4.4,
+        "image_url": "https://realrawhoney.co.uk/product/raw-acacia-honey-0-900g/?gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qjGHvVcvZSyfgOF_ENmfAAgpCnYSnVKyMsdIdUhSEe6Aq-EV54FbvEaAsy7EALw_wcB",
+        "image": "DP01000000017M.png"
+    }
+},
+{
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052418",
+        "name": "Acacia Chunk Comb Honey Amphora",
+        "description": "This generously sized jar is filled to the brim with one of our favourite and most delicate honeys. A large chunk of pure honeycomb floats in golden-pale liquid honey, produced by bees feasting on Hungarian acacia trees.",
+        "price": 12.12,
+        "category": 3,
+        "rating": 4.9,
+        "image_url": "https://www.fortnumandmason.com/acacia-chunk-comb-honey-amphora-908g?gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qibzZipWRix0xCUld0nMK-Bt62_2VqtKQvjCr3c1cBvufoPgA_BVvMaAvoFEALw_wcB&gclsrc=aw.ds",
+        "image": "DP01000000018M.png"
+    }
+},
+{
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052419",
+        "name": "M&S Acacia Honey",
+        "description": "Sourced from bees that forage on the Robinia Acacia tree, this honey has a sweet and fruity flavour. Drizzle on toast, pancakes or use as a natural sweetener in desserts.",
+        "price": 5.21,
+        "category": 3,
+        "rating": 4.4,
+        "image_url": "https://www.ocado.com/products/m-s-acacia-honey-506025011?ds_rl=1290893&ds_rl=1291426&gclid=Cj0KCQjw-fmZBhDtARIsAH6H8qjmeIBlMPc51xvb2Dw9LwGH3SnOd18qwmHeXFfVtbLmtHhUV-vLtBcaAtAwEALw_wcB&gclsrc=aw.ds",
+        "image": "DP01000000019M.png"
+    }
+},
+{
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052420",
+        "name": "Acacia Honey",
+        "description": "One of the clearest honey you will ever see, our 100% Pure Acacia Honey is both light and luxurious in taste. It’s raw, cold extracted and cold filtered, resulting in a more naturally fragrant finish.",
+        "price": 15.99,
+        "category": 3,
+        "rating": 4.9,
+        "image_url": "https://honeybeeandco.uk/shop/acacia-honey-subscription/",
+        "image": "DP01000000020M.png"
+    }
+},
+{
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052421",
+        "name": "Manuka Lab Manuka Honey MGO",
+        "description": "Made by bees who have feasted on the nectar rich Leptospermum scoparium, the manuka bush is native to New Zealand, where indigenous Maori people have used its nectar as a natural remedy for over 4000 years.",
+        "price": 31.22,
+        "category": 4,
+        "rating": 4.6,
+        "image_url": "https://images.hollandandbarrettimages.co.uk/productimages/HB/724/048835_A.jpg",
+        "image": "DP01000000021M.png"
+    }
+},
+{
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052422",
+        "name": "Manuka Doctor Monofloral Manuka Honey",
+        "description": "Manuka Doctor's award-winning range of Genuine Manuka honey is always tested and packed in New Zealand itself. This means that every batch is guaranteed to meet the strict New Zealand export standard.",
+        "price": 35.10,
+        "category": 4,
+        "rating": 4.97,
+        "image_url": "https://images.hollandandbarrettimages.co.uk/productimages/HB/724/040237_A.jpg",
+        "image": "DP01000000022M.png"
+    }
+},
+{
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052423",
+        "name": "Manuka Honey MGO 829+",
+        "description": "This premium Comvita Manuka Honey has a Unique Manuka Factor (UMF™) of 20+ and an MGO level of 829+. MGO is used to measure Manuka honey’s special properties and the minimum level for monofloral Manuka (Manuka honey sourced from one plant) is 80, meaning our Manuka Honey UMF™ 20+ is significantly above this.",
+        "price": 100.10,
+        "category": 4,
+        "rating": 4.9,
+        "image_url": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13107189-1694864012248984.jpg",
+        "image": "DP01000000023M.png"
+    }
+},
+{
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052424",
+        "name": "Mkouo Glass Honey Jar with Dipper",
+        "description": "It's perfect for honey storage and fits perfectly in any kitchen.",
+        "price": 16.95,
+        "category": 5,
+        "rating": 4.73,
+        "image_url": "https://m.media-amazon.com/images/I/61oPEIPWgtL._AC_SY879_.jpg",
+        "image": "DP01000000024M.png"
+    }
+},
+{
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052425",
+        "name": "KitchenCraft Class Collection Striped Ceramic Honey Pot",
+        "description": "Another inspired piece from KitchenCraft's Classic Collection, this ceramic honey pot is decorated in neutral cream with artsy stripes",
+        "price": 15.95,
+        "category": 5,
+        "rating": 4.72,
+        "image_url": "https://m.media-amazon.com/images/I/51FGdHWP0DL._AC_SY879_.jpg",
+        "image": "DP01000000025M.png"
+    }
+},
+{
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052426",
+        "name": "DESIOLE Wooden Honey Mixing Stirrer Honey Dipper Sticks Honey Spoon",
+        "description": "The grooves on these wooden dippers help you easily collect and dispense honey from the jar.",
+        "price": 3.75,
+        "category": 5,
+        "rating": 4.73,
+        "image_url": "https://m.media-amazon.com/images/I/41-KMo+U9yL._AC_SY300_SX300_.jpg",
+        "image": "DP01000000026M.png"
+    }
+},
+{
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052427",
+        "name": "20Pcs Honey Dipper Sticks - Wooden Honey Dipper, 3 Inch Mini Honeycomb Stick",
+        "description": "YOU WILL GET: 20Pcs mini honey dipper sticks",
+        "price": 8.99,
+        "category": 5,
+        "rating": 3.9,
+        "image_url": "https://m.media-amazon.com/images/I/71UU+Y+QeEL._AC_SX679_.jpg",
+        "image": "DP01000000027M.png"
+    }
+},
+{
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052428",
+        "name": "Orange Blossom & Honey",
+        "description": "John Gregory-Smith embarks upon a culinary odyssey around Morocco, exploring off the beaten track and discovering that the nation's modern food has Berber, Arabic, Moorish and Mediterranean influences.",
+        "price": 16.04,
+        "category": 7,
+        "rating": 3.8,
+        "image_url": "https://www.psbooks.co.uk/media/catalog/product/5/1/514645_2658a4ede4f17a4be4a779cf7c05589a.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=363&width=244&canvas=244:363",
+        "image": "DP01000000028M.png"
+    }
+},
+{
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052429",
+        "name": "Honey: Nature's Magic - The Ultimate Practical Guide",
+        "description": "Honey: Nature's Magic - The Ultimate Practical Guide to 101 Things to Do with Honey, from Sweetening and Flavouring, to Polishing, Soothing and ... with Tips, Hints and 40 Tempting Recipes.",
+        "price": 10.99,
+        "category": 7,
+        "rating": 1.0,
+        "image_url": "https://m.media-amazon.com/images/I/51tP+9TMTvL._SX384_BO1,204,203,200_.jpg",
+        "image": "DP01000000029M.png"
+    }
+},
+{
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp2022052430",
+        "name": "HONEY - vintage aesthetic shirt",
+        "description": "This tee feels soft and light with just the right amount of stretch. It's comfortable and flattering for all. A top-selling item loved by our customers! It's sure to be your next favorite too! ",
+        "price": 53.10,
+        "category": 6,
+        "rating": 3,
+        "image_url": "https://i.etsystatic.com/24064094/r/il/64f701/4180529153/il_1588xN.4180529153_31w1.jpg",
+        "image": "DP01000000030M.png"
+    }
+}
+]
