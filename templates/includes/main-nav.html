@@ -5,34 +5,34 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="bike-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="honey-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Honey
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="bike-link">
-                <a href="" class="dropdown-item">Clover Honey</a>
-                <a href="" class="dropdown-item">Wildflower Honey</a>
-                <a href="" class="dropdown-item">Acacia Honey</a>
-                <a href="" class="dropdown-item">Manuka Honey</a>
+            <div class="dropdown-menu border-0" aria-labelledby="honey-link">
+                <a href="{% url 'products' %}?category=honey-1" class="dropdown-item" aria-label="honey-1">Clover Honey</a>
+                <a href="{% url 'products' %}?category=honey-2" class="dropdown-item" aria-label="honey-2">Wildflower Honey</a>
+                <a href="{% url 'products' %}?category=honey-3" class="dropdown-item" aria-label="honey-3">Acacia Honey</a>
+                <a href="{% url 'products' %}?category=honey-4" class="dropdown-item" aria-label="honey-4">Manuka Honey</a>
 
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="riding-gear-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="items-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Accessories
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="riding-gear-link">
-                <a href="" class="dropdown-item">Tools</a>
-                <a href="" class="dropdown-item">Cloths</a>
-                <a href="" class="dropdown-item">Accessories</a>
+            <div class="dropdown-menu border-0" aria-labelledby="items-link">
+                <a href="{% url 'products' %}?category=tools" class="dropdown-item" aria-label="tools">Tools</a>
+                <a href="{% url 'products' %}?category=cloths" class="dropdown-item" aria-label="Cloths">Cloths</a>
+                <a href="{% url 'products' %}?category=accessories" class="dropdown-item" aria-label="Accessories">Accessories</a>
             </div>
         </li>
 
@@ -41,9 +41,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item" aria-label="New Arrivals">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item" aria-label="Deals">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item" aria-label="Clearance">Clearance</a>
             </div>
         </li>
     </ul>
