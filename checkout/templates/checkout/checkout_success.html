@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
-
+<!-- css block -->
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
-
+<!-- header block -->
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -12,10 +12,12 @@
         </div>
     </div>
 {% endblock %}
-
+<!-- content block -->
 {% block content %}
+    <!-- Overlay -->
     <div class="overlay"></div>
-    <div class="container">
+    <div class="container footer-padding">
+        <!-- confiramtion about email -->
         <div class="row">
             <div class="col">
                 <hr>
@@ -24,7 +26,7 @@
                 <p class="text-black">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
             </div>
         </div>
-
+        <!-- details table -->
         <div class="row">
             <div class="col-12 col-lg-7">
                 <div class="order-confirmation-wrapper p-2 border">
@@ -66,7 +68,7 @@
                             </p>
                         </div>
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="small mb-0">{{ item.quantity }} @ £{{ item.product.price }} each</p>
+                            <p class="small mb-0">{{ item.quantity }} @ €{{ item.product.price }} each</p>
                         </div>
                     </div>
                     {% endfor %}
@@ -192,15 +194,15 @@
         </div>
         <div class="row">
 			<div class="col-12 col-lg-7 text-right">
-				{% if from_profile %}
-                    <a href="{% url 'profile' %}" class="btn btn-black rounded-0 my-2">
+                {% if from_profile %}
+                    <a href="{% url 'profile' %}" class="btn btn-black rounded-0 my-2" aria-label="back to profile">
                         <span class="icon mr-2">
                             <i class="fas fa-angle-left"></i>
                         </span>
                         <span class="text-uppercase">Back to Profile</span>
                     </a>
                 {% else %}
-                    <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="btn btn-black rounded-0 my-2">
+                    <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="btn btn-black rounded-0 my-2" aria-label="last deals">
                         <span class="icon mr-2">
                             <i class="fas fa-gifts"></i>
                         </span>
