@@ -7,7 +7,6 @@ import json
 import os
 import requests
 import shutil
-import subprocess
 import sys
 from os.path import exists
 
@@ -32,7 +31,7 @@ MIGRATE_FILE_LIST = [{"filename": ".theia/settings.json",
                      {"filename": ".theia/heroku_config.sh",
                       "url": ".vscode/heroku_config.sh"
                       },
-                      {"filename": ".theia/uptime.sh",
+                     {"filename": ".theia/uptime.sh",
                       "url": ".vscode/uptime.sh"
                       },
                      {"filename": ".theia/init_tasks.sh",
@@ -68,7 +67,7 @@ UPGRADE_FILE_LIST = [{"filename": ".vscode/client.cnf",
                       },
                      {"filename": ".vscode/make_url.py",
                       "url": ".vscode/make_url.py"
-                     },
+                      },
                      {"filename": ".vscode/arctictern.py",
                       "url": ".vscode/arctictern.py"
                       }]
@@ -115,7 +114,7 @@ def build_post_upgrade():
         content += FINAL_LINES
         with open(".vscode/post_upgrade.sh", "w") as f:
             f.writelines(content)
-    
+
     print("Built post_upgrade.sh. Restart your\
          workspace for it to take effect")
 
@@ -169,7 +168,7 @@ def start_migration():
         print("Renaming directory")
         os.rename(".theia", ".vscode")
 
-    if not MIGRATE and needs_upgrade():                
+    if not MIGRATE and needs_upgrade():
         build_post_upgrade()
 
     print("Changes saved.")

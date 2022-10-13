@@ -15,4 +15,4 @@ class NewsletterUserSignUpForm(forms.ModelForm):
             """[clean email]"""
             email = self.cleaned_data.get('email')
 
-            return
+            return email
