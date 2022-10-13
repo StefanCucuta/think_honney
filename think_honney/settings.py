@@ -27,7 +27,7 @@ aad2q^h10y-m2u^*fzg6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cucutastefan-think-honney', 'localhost']
+ALLOWED_HOSTS = ['cucutastefan-think-honney.herokuapp.com', 'localhost']
 
 
 # Application definition
