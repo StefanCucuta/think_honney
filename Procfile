@@ -1,1 +1,1 @@
-web: gunicorn bebike.wsgi:application
+web: gunicorn think_honney.wsgi:application
