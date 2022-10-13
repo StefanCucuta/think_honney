@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
-
+<!-- css block -->
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
 {% endblock %}
-
+<!-- page header block -->
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -12,10 +12,12 @@
         </div>
     </div>
 {% endblock %}
-
+<!-- content block -->
 {% block content %}
+    <!-- overlay -->
     <div class="overlay"></div>
-      <div class="container footer-padding">
+    <div class="container footer-padding">
+    <!-- my profile neder -->
         <div class="row">
             <div class="col">
                 <hr>
@@ -23,15 +25,17 @@
                 <hr>
             </div>
         </div>
+        <!-- delivery information form -->
         <div class="row">
             <div class="col-12 col-lg-6">
                 <p class="text-muted">Default Delivery Information</p>
                 <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
                     {% csrf_token %}
                     {{ form|crispy }}
-                    <button class="btn btn-black rounded-0 text-uppercase float-right">Update Information</button>
+                    <button class="btn btn-black rounded-0 text-uppercase float-right" aria-label="update">Update Information</button>
                 </form>
             </div>
+            <!-- order history details -->
             <div class="col-12 col-lg-6">
                 <p class="text-muted">Order History</p>
                 <div class="order-history table-responsive">
@@ -73,10 +77,10 @@
                 </div>
             </div>
         </div>
-      </div>
+    </div>
 {% endblock %}
-
+<!-- js block to handle country field -->
 {% block postloadjs %}
     {{ block.super }}
-    <script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
+    <script src="{% static 'profiles/js/countryfield.js' %}"></script>
 {% endblock %}
