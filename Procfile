@@ -1,0 +1,1 @@
+web: gunicorn bebike.wsgi:application
