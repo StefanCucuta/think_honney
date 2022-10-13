@@ -10,18 +10,93 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    All you need is here
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                    </h4>
+<div class="container index-style">
+    <div class="row">
+        <div class="col">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <!-- Products - shop now -->
+                <div class="carousel-item active">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-7 col-md-3 my-auto">
+                                <h1 class="display-4 logo-font text-black">
+                                   Here is all that you need
+                                </h1>
+                                <div class="my-5">
+                                    <h4>
+                                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3" aria-label="shop now">Shop Now</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- contact -->
+                <div class="carousel-item">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-7 col-md-4 my-auto">
+                                <h1 class="display-4 logo-font text-black">
+                                    Want to ask our experts about products?
+                                </h1>
+                                <div class="my-5">
+                                    <h4>
+                                        <a href="{% url 'contact' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3" aria-label="contact">Contact</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Newsletter -->
+                <div class="carousel-item">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-7 col-md-3 my-auto">
+                                <h1 class="display-4 logo-font text-black">
+                                    Stay close for more
+                                </h1>
+                                <div class="my-5">
+                                    <h4>
+                                        <a href="{% url 'newsletter_signup' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3" aria-label="subscribe">Subscribe</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Visit our Facbook -->
+                <div class="carousel-item">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-7 col-md-3 my-auto">
+                                <h1 class="display-4 logo-font text-black">
+                                    Visit our Facebook <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                </h1>
+                                <div class="my-5">
+                                    <h4>
+                                        <a href="" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3" aria-label="subscribe">Facebook</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!-- previous arrow -->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <!-- next arrow -->
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
     </div>
+</div>
+
 {% endblock %}
