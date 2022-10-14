@@ -36,11 +36,11 @@
             {% if request.user.is_superuser %}
                 <a href="{% url 'add_product' %}" class="dropdown-item" aria-label="Product Management">Product Management</a>
             {% endif %}
-            <a href="{% url 'profile' %}" class="dropdown-item" aria-label="My Profile">My Profile</a>
-            <a href="{% url 'account_logout' %}" class="dropdown-item" aria-label="Logout">Logout</a>
+            <a href="{% url 'profile' %}" id="dropdown-item" aria-label="My Profile">My Profile</a>
+            <a href="{% url 'account_logout' %}" id="dropdown-item" aria-label="Logout">Logout</a>
         {% else %}
-            <a href="{% url 'account_signup' %}" class="dropdown-item" aria-label="Register">Register</a>
-            <a href="{% url 'account_login' %}" class="dropdown-item" aria-label="Login">Login</a>
+            <a href="{% url 'account_signup' %}" id="dropdown-item" aria-label="Register">Register</a>
+            <a href="{% url 'account_login' %}" id="dropdown-item" aria-label="Login">Login</a>
         {% endif %}
     </div>
 </li>
