@@ -20,3 +20,6 @@ urlpatterns = [
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'think_honney.views.handler404'
+handler403 = 'think_honney.views.handler403'
+handler400 = 'think_honney.views.handler400'
+handler500 = 'think_honney.views.handler500'
