@@ -154,7 +154,7 @@ Other Code pass JShint without errors
 
 # **All products and add to bag**
 
-![All products add to bag](readme_documents/testing/product_add.gif)
+![All products add to bag](readme_documents/testing/add_review.webm)
 
 # **Add review**
 
