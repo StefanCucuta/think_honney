@@ -1,6 +1,6 @@
-![Hero image](readme_documents/mockup/hero_responsive.png)
+![Hero video](readme_documents/mockup/hero_responsive.gif)
 
-# Think Hony e-commerce store
+# Think Honey e-commerce store
 
 ## [See Live web](https://cucutastefan-think-honney.herokuapp.com/)
 
