@@ -26,7 +26,6 @@
         *   All products add to bag
         *   Add review
         *   Add product responsivnes
-        *   Product view responsivnes
     * [**6.5.4 Checkout payment**](#checkoutTesting)
     * [**6.5.5 Contact Form**](#contactTesting)
     * [**6.5.6 Newsletter subscribe and unsubscribe**](#newsletterTesting)
@@ -48,12 +47,17 @@
 # **Error list W3C html**
 
 ![Error list W3C html](readme_documents/testing/w3_html_errors.png)
+![Error list W3C html](readme_documents/testing/w3_html_errors1.png)
 
-1, 2, 5 Closed ```li``` tag in ```ul``` tag to follow good practice method
+1 Removed google site verification
 
-3, 4 id changed to user-options-base to remove conflict
+2, 3, 6, 7 Closed ```li``` tag in ```ul``` tag to follow good practice method
 
-7 The type attribute removed from each script including ```type="text/javascript"
+4, 5 id changed to user-options-base to remove conflict
+
+8, 9 ,10 Removed duplicate attribute
+
+11 The type attribute removed from each script including ```type="text/javascript"
 
 # **Pass W3C html**
 
@@ -154,7 +158,7 @@ Other Code pass JShint without errors
 
 # **All products and add to bag**
 
-![All products add to bag](readme_documents/testing/add_review.webm)
+![All products add to bag](readme_documents/testing/product_add.gif)
 
 # **Add review**
 
@@ -163,10 +167,6 @@ Other Code pass JShint without errors
 # **All product responsivnes**
 
 ![Add product responsivnes](readme_documents/testing/product_responsive.gif)
-
-# **Product view responsivnes**
-
-![All product responsivnes](readme_documents/testing/product_view_responsivenes.gif)
 
 
 [Back to Table Of Content](#tableOfContents)
@@ -190,10 +190,6 @@ Other Code pass JShint without errors
 <a name="Contact Form"></a>
 
 ![Contact Form](readme_documents/testing/contact.gif)
-
-<a name="Contact Form responsivness"></a>
-
-![Contact Form responsivness](readme_documents/testing/contact_responsive.gif)
 
 # **6.5.6 Newsletter subscribe and unsubscribe**
 
