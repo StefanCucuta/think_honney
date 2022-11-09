@@ -370,6 +370,22 @@ I use icons provided by [Font Awesome](https://fontawesome.com/)
 
 [Back to Table Of Content](#tableOfContents)
 
+<a name="agile"></a>
+
+# **3. Agile Methodology**
+Github issues were used to create the User stories and group them according to the MoSCoW prioritization technique. Link to the project with live issues can be found  [here](https://github.com/StefanCucuta/think_honney/projects/2)
+
+The issues were then closed automatically when the pull request was linked to the issue.
+
+<a name="kanban"></a>
+
+# **3.1. KANBAN**
+
+### **Kanban Final**
+<hr>
+
+![Kanban Final](readme_documents/kanban/Kanban.png)
+
 # **4. Existing Features**
 
 -	Responsive design
